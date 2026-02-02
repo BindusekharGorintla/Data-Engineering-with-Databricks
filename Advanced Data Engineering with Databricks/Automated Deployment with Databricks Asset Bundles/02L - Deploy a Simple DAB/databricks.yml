@@ -1,0 +1,34 @@
+###########################################################################################
+# THIS IS THE MAIN DATABRICKS ASSET BUNDLE CONFIGURATION FOR THE PROJECT                  
+###########################################################################################
+# See https://docs.databricks.com/dev-tools/bundles/index.html for documentation.         #
+###########################################################################################
+
+################
+# Bundle name  
+################
+bundle:                       # Required
+  name: demo02_lab_bundle     # Required
+
+
+############################################################################
+# RESOURCES
+# - These are the default job and pipeline settings (currently only a job).
+# TO DO: Paste your YAML configuration below from the job you created using the UI.
+# TO DO: Make the required modifications specified in the notebook.
+############################################################################
+
+
+
+##############################################################################################
+# TARGET DEPLOYMENT ENVIRONMENTS
+# - These are the targets to use for deployments and workflow runs. 
+# - One and only one of these targets can be set to "default: true".
+# - TO DO: Complete the dev target below!
+##############################################################################################
+targets:
+    
+  # Add your configuration for the 'dev' target here.
+  dev:
+    # Make sure to specify the deployment mode
+    # Ensure the 'default: true' flag is set for the target you wish to deploy by default
